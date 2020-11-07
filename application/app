@@ -1,0 +1,7 @@
+#!/usr/local/bin/php
+<?php
+
+require __DIR__ . '/vendor/autoload.php';
+$config = require __DIR__ . '/config/config.php';
+
+echo (new FF\ConsoleApplication($argv, $config))->run();
