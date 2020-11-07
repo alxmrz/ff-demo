@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f96cc257d6b77925d52bda1cbcda7fd6",
+    "content-hash": "ef414f4a9b455d7bfbcfbf34460b77cb",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -82,16 +82,16 @@
         },
         {
             "name": "ff/ff-core",
-            "version": "dev-framework-transform",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alxmrz/ff-core.git",
-                "reference": "641a646e72ee0ab6836c19a6e0eca968b1063ab3"
+                "reference": "50617edfe1b04f3f855a524c14b174043b33d152"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alxmrz/ff-core/zipball/641a646e72ee0ab6836c19a6e0eca968b1063ab3",
-                "reference": "641a646e72ee0ab6836c19a6e0eca968b1063ab3",
+                "url": "https://api.github.com/repos/alxmrz/ff-core/zipball/50617edfe1b04f3f855a524c14b174043b33d152",
+                "reference": "50617edfe1b04f3f855a524c14b174043b33d152",
                 "shasum": ""
             },
             "require": {
@@ -111,10 +111,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/alxmrz/ff-core/tree/framework-transform",
+                "source": "https://github.com/alxmrz/ff-core/tree/v0.3.0",
                 "issues": "https://github.com/alxmrz/ff-core/issues"
             },
-            "time": "2020-11-07T09:26:39+00:00"
+            "time": "2020-11-07T09:34:51+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2324,9 +2324,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ff/ff-core": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
